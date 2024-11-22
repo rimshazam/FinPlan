@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: radial-gradient(center 50% 50%, radius 70%, #332946, black);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ReportController">
+   <children>
+      <ComboBox fx:id="repType" layoutX="22.0" layoutY="97.0" onAction="#SelectRType" prefHeight="25.0" prefWidth="105.0" />
+      <Label fx:id="repTLabel" layoutX="20.0" layoutY="70.0" text="Select report type" textFill="WHITE">
+         <font>
+            <Font name="Dubai Medium" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
